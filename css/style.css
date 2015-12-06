@@ -48,15 +48,25 @@ footer {
     font-variant: small-caps;
 }
 .my-photo {
-    background-image: url("../images/my-photo.jpg");
+    background-image: url(../images/my-photo.jpg);
     background-position: center center;
     background-size: 250px auto;
 
     height: 150px;
     width: 150px;
+
+    transition: border-radius 300ms linear 0s;
+    -webkit-transition: border-radius 300ms linear 0s;
+    -ms-transition: border-radius 300ms linear 0s;
 }
 .my-info {
     margin-top: 20px;
+}
+.my-info .btn {
+    margin-bottom: 5px;
+}
+.my-info .fa {
+    margin-right: 8px;
 }
 .table .type-info {
     color: #767676;
