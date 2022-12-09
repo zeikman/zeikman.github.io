@@ -17,8 +17,10 @@ a {
   margin: 0 auto;
 }
 header {
-  float: left;
-  width: 370px;
+  /* float: left; */
+  margin: 0 auto;
+  /* width: 370px; */
+  width: 960px;
   padding: 20px;
   /*position: fixed;*/
 }
@@ -29,9 +31,11 @@ header {
   }
 }
 section {
-  float: right;
+  /* float: right; */
+  margin: 0 auto;
   padding-bottom: 50px;
-  width: 550px;
+  /* width: 550px; */
+  max-width: 960px;
   background-color: #ffffff;
 }
 @media screen and (max-width: 1050px) {
@@ -71,6 +75,9 @@ footer {
 }
 .my-info .fa {
   margin-right: 8px;
+}
+.table td:first-child {
+  width: 200px;
 }
 .table .type-info {
   color: #767676;
